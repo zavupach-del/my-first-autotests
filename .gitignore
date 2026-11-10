@@ -1,0 +1,18 @@
+# Виртуальное окружение
+.venv/
+venv/
+
+# Кэш Python и Pytest
+__pycache__/
+.pytest_cache/
+
+# Настройки IDE (смотря в чем работаешь)
+.idea/
+.vscode/
+
+# Секреты и переменные окружения
+.env
+
+# Отчеты и логи
+allure-report/
+*.log
