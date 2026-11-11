@@ -3,6 +3,7 @@ import logging
 
 logger = logging.getLogger(__name__)
 
+
 @pytest.fixture(scope="session")
 def session_resource():
     logger.info("[SESSION] Подготовка ресурса (начало сессии)")

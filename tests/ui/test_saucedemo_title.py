@@ -1,6 +1,7 @@
 import pytest
 from playwright.sync_api import expect
 
+
 @pytest.mark.ui
 def test_saucedemo_title(page):
     page.goto("https://www.saucedemo.com/")
